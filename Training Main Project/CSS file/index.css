@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-color: white;
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 20px 30px #2fa84f;
+}
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main{
+    margin: 0px;
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    background-color: transparent;
+    
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#title{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px; 
+}
+#title>button{
+    height: 30px;
+    width: 90px;
+    padding: 5px;
+    color: white;
+    background-color: #367bf5;
+    border: 1px solid #367bf5;
+    border-radius: 3rem;
+}
+#list{
+    background-color: aliceblue;
+    margin: 0px;
+    box-shadow: 2px 3px 40px 2px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.row{
+    /* background-color: yellow; */
+    border-bottom: 4px solid black;
+}
+.row>td{
+    padding: 14px;
+}
+dl{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+}
+.one{
+    border-radius: 40%;
+    width: 10%;
+    background-color: #2FA84F;
+}
+.two{
+    border-radius: 40%;
+    width: 10%;
+    background-color: #367bf5;
+}
+
+.three{
+    border-radius: 40%;
+    width: 10%;
+    background-color: #EA3D2F;
+}
+
+.bin{
+    background-color: transparent;
+    border: none;
+    color: #ea3d2f;
+}
+.heading{
+    font-size: 50px;
+}
+
+.popup{
+    background-color:#367bf5;
+    border-radius: 30%;
+    height: 5vh;
+}
+
+.addtodo{
+
+    background-color: #367bf5;
+    border-radius: 30%;
+}
